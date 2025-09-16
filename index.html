@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" alt="Spotify Logo" class="logo">
+      
+      <div class="nav-item">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </div>
+
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="What do you want to listen to?">
+      </div>
+    </div>
+
+    <div class="navbar-right">
+      <a href="#" class="btn">Install App</a>
+      <a href="#" class="btn">Login</a>
+      <a href="#" class="btn">Sign Up</a>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <ul>
+      <li><i class="fas fa-book"></i> Your Library</li>
+    </ul>
+
+    <div class="create-playlist">
+      <h4>Create your first playlist</h4>
+      <p>It's easy — we'll help you.</p>
+      <button>Create Playlist</button>
+    </div>
+
+    <div class="create-playlist">
+      <h4>Let's find some podcasts</h4>
+      <p>We'll keep you updated on new ones.</p>
+      <button>Browse Podcasts</button>
+    </div>
+
+    <div class="privacy">
+      <ul>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
+      <button class="lang-btn">English</button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    
+    <section class="playlist-section">
+      <h2>Popular Albums</h2>
+      <div class="card-container">
+        <!-- Card Items -->
+        <div class="card">
+          <img src="img/song1.png" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Dhun</h4>
+          <p>Arijit Singh & Qitar Haider</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song2.jpeg" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Arz Ki Yeh Hai</h4>
+          <p>Aneer Padda, Tanishk Bagchi, Faheem Abdullah</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song3.png" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Sayyaira</h4>
+          <p>Arijit Singh, Faheem Abdullah</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song4.png" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Mujhe Pyar Hua Tha</h4>
+          <p>Kaifi Khalil</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song5.png" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Kabhi Main Kabhi Tum</h4>
+          <p>Kaifi Khalil & Asim Azhar</p>
+        </div>
+        
+        <div class="card">
+          <img src="img/song2.jpeg" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Arz Ki Yeh Hai</h4>
+          <p>Aneer Padda, Tanishk Bagchi, Faheem Abdullah</p>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="playlist-section">
+      <h2>Your Favorite Singers</h2>
+      <div class="card-container">
+
+        <div class="card">
+          <img src="img/song7.jpeg" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Arijit Singh</h4>
+          <p>Top Songs Playlist</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song8.avif" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Stebin Ben</h4>
+          <p>Hit Songs Collection</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song9.jpg" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Amaal Mallik</h4>
+          <p>Melodious Tracks</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song6.png" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>295</h4>
+          <p>Sidhu Moosewala</p>
+        </div>
+
+        <div class="card">
+          <img src="img/song5.png" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Another Side</h4>
+          <p>Kaka</p>
+        </div>
+
+     <div class="card">
+          <img src="img/song7.jpeg" alt="">
+          <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+          <h4>Arijit Singh</h4>
+          <p>Top Songs Playlist</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-links">
+        <ul>
+          <li><strong>Company</strong></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">For the Record</a></li>
+        </ul>
+        <ul>
+          <li><strong>Communities</strong></li>
+          <li><a href="#">Artists</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Sponsors</a></li>
+        </ul>
+        <ul>
+          <li><strong>Useful Links</strong></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Web Player</a></li>
+          <li><a href="#">Free Mobile App</a></li>
+        </ul>
+      </div>
+
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Spotify Clone</p>
+    </div>
+  </footer>
+
+</body>
+</html>
